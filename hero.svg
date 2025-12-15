@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#E8F8F2"/>
+      <stop offset="100%" stop-color="#F3FFF9"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#DFF7EF"/>
+      <stop offset="100%" stop-color="#E6FFF5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#g1)" />
+
+  <!-- Soft organic shapes -->
+  <g opacity="0.9">
+    <path d="M0,400 C200,300 400,500 700,420 C1000,340 1200,460 1200,460 L1200,600 L0,600 Z" fill="#E3FFF4"/>
+    <path d="M0,320 C180,240 360,360 640,300 C920,240 1200,320 1200,320 L1200,600 L0,600 Z" fill="#D6F9EE"/>
+  </g>
+
+  <!-- Cleaning bottle -->
+  <g transform="translate(150,140) scale(0.9)">
+    <rect x="240" y="60" rx="18" ry="18" width="140" height="260" fill="#FFFFFF" stroke="#CDEEDD" stroke-width="6"/>
+    <rect x="270" y="20" rx="8" ry="8" width="80" height="40" fill="#2E8B57"/>
+    <circle cx="310" cy="40" r="6" fill="#FFFFFF"/>
+    <path d="M260,120 C300,90 340,90 380,120" stroke="#2E8B57" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <text x="310" y="200" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#2E8B57" text-anchor="middle">Eco</text>
+    <text x="310" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#2E8B57" text-anchor="middle">Fresh</text>
+  </g>
+
+  <!-- Leaf motif -->
+  <g transform="translate(700,140) scale(1)">
+    <path d="M90 10 C60 40 20 60 10 110 C40 100 80 90 110 70 C140 50 130 20 90 10 Z" fill="#90EE90" opacity="0.95"/>
+    <path d="M110 30 C130 60 150 90 170 130 C150 120 130 100 110 80 C90 60 90 40 110 30 Z" fill="#7FEBAD" opacity="0.9"/>
+  </g>
+
+  <!-- Bubbles / sparkle -->
+  <g fill="#C9F0DE" opacity="0.9">
+    <circle cx="900" cy="120" r="12"/>
+    <circle cx="960" cy="180" r="8"/>
+    <circle cx="820" cy="200" r="6"/>
+  </g>
+
+  <!-- Subtle decorative leaf pattern bottom-right -->
+  <g transform="translate(920,320) scale(0.9)" opacity="0.9">
+    <path d="M0 30 C10 10 40 0 80 10 C60 30 40 40 0 30 Z" fill="#E6FFF5"/>
+    <path d="M20 10 C40 0 70 8 90 30 C70 40 40 36 20 10 Z" fill="#DFF7EF"/>
+  </g>
+
+</svg>

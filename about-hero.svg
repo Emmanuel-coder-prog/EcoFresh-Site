@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#F2FFF8"/>
+      <stop offset="100%" stop-color="#E8F8F2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="700" fill="url(#bg)" />
+
+  <!-- soft shapes -->
+  <g opacity="0.95">
+    <path d="M0,480 C220,380 420,540 700,450 C980,360 1400,520 1400,520 L1400,700 L0,700 Z" fill="#DFF7EF"/>
+    <path d="M0,380 C180,300 380,420 660,360 C940,300 1200,380 1400,360 L1400,700 L0,700 Z" fill="#E6FFF5"/>
+  </g>
+
+  <!-- stylized person holding bottle -->
+  <g transform="translate(200,140) scale(1)">
+    <!-- body -->
+    <ellipse cx="280" cy="320" rx="80" ry="110" fill="#FFEED9"/>
+    <rect x="220" y="180" width="120" height="180" rx="36" fill="#FFFFFF" stroke="#CFEFE0" stroke-width="6"/>
+
+    <!-- head -->
+    <circle cx="280" cy="120" r="58" fill="#FFEED9"/>
+    <path d="M240 130 C260 150 300 150 320 130" stroke="#D9B7A3" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <!-- arm holding bottle -->
+    <path d="M320 200 C380 220 400 260 360 300 L330 280" fill="#FFEED9"/>
+    <rect x="340" y="240" width="48" height="110" rx="12" fill="#2E8B57" stroke="#1E5E3D" stroke-width="4"/>
+    <rect x="350" y="200" width="28" height="40" rx="6" fill="#1E5E3D"/>
+
+    <!-- small label on bottle -->
+    <rect x="352" y="280" width="24" height="36" rx="4" fill="#CFF5DF"/>
+    <text x="364" y="305" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1E5E3D" text-anchor="middle">Eco</text>
+
+    <!-- second bottle on table -->
+    <rect x="190" y="300" width="48" height="90" rx="10" fill="#90EE90" stroke="#6CCF86" stroke-width="4"/>
+
+    <!-- cleaning sparkle -->
+    <g fill="#DAFFF0" opacity="0.95">
+      <circle cx="440" cy="120" r="12"/>
+      <circle cx="480" cy="180" r="8"/>
+    </g>
+  </g>
+
+  <!-- decorative leaves right-side -->
+  <g transform="translate(980,120) scale(1)">
+    <path d="M0 40 C40 10 100 0 140 30 C110 60 60 70 0 40 Z" fill="#A7F3C5" opacity="0.95"/>
+    <path d="M40 10 C80 -10 140 10 180 50 C140 70 80 60 40 10 Z" fill="#7FEBAD" opacity="0.9"/>
+  </g>
+
+</svg>
